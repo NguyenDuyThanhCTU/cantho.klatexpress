@@ -34,7 +34,7 @@ export default function ProcessSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
               {/* Thay bằng ảnh thật của nhân viên/kho bãi An Tâm Express */}
               <div className="absolute inset-0 bg-slate-200 flex items-center justify-center text-slate-400">
-                IMAGE PLACEHOLDER (Kho hàng/Nhân viên đóng gói)
+                <img src="https://klatexpress.com/upload/5.png" />
               </div>
               {/* Floating Badge */}
               <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur p-4 rounded-xl shadow-lg border border-white/20">
