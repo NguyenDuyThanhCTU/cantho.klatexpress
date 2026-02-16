@@ -3,9 +3,8 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, Search, Package } from "lucide-react";
+import { Menu, X, Phone, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 
 const navItems = [
   { name: "Trang chủ", href: "#hero" },

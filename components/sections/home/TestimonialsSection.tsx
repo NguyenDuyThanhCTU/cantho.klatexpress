@@ -64,7 +64,7 @@ export default function TestimonialsSection() {
               </div>
 
               <p className="text-slate-700 mb-6 italic leading-relaxed">
-                "{review.content}"
+                &#x22;{review.content}&#x22;
               </p>
 
               <div className="flex items-center gap-4">

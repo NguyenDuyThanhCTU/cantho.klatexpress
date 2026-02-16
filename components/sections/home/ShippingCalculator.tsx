@@ -1,18 +1,15 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Calculator,
   ArrowRight,
   AlertCircle,
   Scale,
-  Globe,
   CheckCircle2,
-  Plane,
   PackageCheck,
 } from "lucide-react";
-import { cn } from "@/lib/utils";
 
 // --- LOẠI DỮ LIỆU ---
 

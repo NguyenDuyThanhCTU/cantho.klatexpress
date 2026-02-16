@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Image as ImageIcon, Box, MessageCircle, Layers } from "lucide-react";
-import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 // Danh mục Tabs

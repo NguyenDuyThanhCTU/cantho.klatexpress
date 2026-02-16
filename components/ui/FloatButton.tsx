@@ -2,15 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  MessageCircle,
-  X,
-  Phone,
-  Facebook,
-  Send,
-  Truck,
-  MessageSquare,
-} from "lucide-react";
+import { MessageCircle, X, Phone, Facebook, Truck } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
