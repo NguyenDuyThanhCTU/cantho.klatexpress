@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google"; // Import font
 import "@/styles/globals.css";
 import { cn } from "@/lib/utils";
@@ -88,13 +88,6 @@ export const metadata: Metadata = {
   // },
 };
 
-export const viewport: Viewport = {
-  themeColor: "#0ea5e9",
-  width: "device-width",
-  initialScale: 1,
-  maximumScale: 5,
-};
-
 export default function RootLayout({
   children,
 }: {
@@ -153,7 +146,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         {children}
-        {/* <FloatButton /> */}
+        <FloatButton />
       </body>
     </html>
   );

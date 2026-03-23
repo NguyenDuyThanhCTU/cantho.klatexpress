@@ -130,9 +130,9 @@ export default function FloatButton() {
         </div>
       </div>
       <div className="fixed bottom-6 left-6 z-50 flex flex-col items-end gap-4">
-        <Link href="tel:0777697056">
+        <div>
           <motion.a
-            //   href="#pricing" // Cuộn đến bảng giá hoặc trang booking
+            href="tel:0777697056"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="h-14 px-6 rounded-full bg-gradient-to-r from-accent-500 to-orange-600 text-white font-bold shadow-lg shadow-orange-500/40 flex items-center gap-2 animate-bounce-slow"
@@ -140,7 +140,7 @@ export default function FloatButton() {
             <Truck className="w-5 h-5" />
             <span className="hidden md:inline">Gửi Hàng Ngay</span>
           </motion.a>
-        </Link>
+        </div>
       </div>
     </>
   );

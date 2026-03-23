@@ -1,7 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Check, Zap, Plane, Ship, ShieldCheck } from "lucide-react";
+import {
+  Check,
+  Zap,
+  Plane,
+  Ship,
+  ShieldCheck,
+  ChevronDown,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
 
 // Định nghĩa các gói cước
@@ -176,13 +183,18 @@ export default function PricingSection() {
         </div>
 
         {/* Note thêm bên dưới */}
-        <div className="mt-12 text-center">
-          <p className="text-slate-500 text-sm">
-            * Lưu ý: Giá trên chỉ mang tính chất tham khảo cho hàng thông thường
-            đi Mỹ. <br className="hidden md:block" />
-            Đối với hàng thực phẩm, mỹ phẩm hoặc hàng cồng kềnh, vui lòng liên
-            hệ Hotline để có giá chính xác nhất.
+        <div className="mt-8 flex flex-col items-center justify-center text-center">
+          <p className="text-brand-600 font-black uppercase tracking-widest text-sm mb-4">
+            Tra cứu giá Online ngay
           </p>
+          <motion.a
+            href="#calculator"
+            animate={{ y: [0, 10, 0] }}
+            transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+            className="w-14 h-14 rounded-full bg-white shadow-lg border border-brand-100 text-brand-600 flex items-center justify-center hover:bg-brand-50 transition-colors"
+          >
+            <ChevronDown className="w-8 h-8" />
+          </motion.a>
         </div>
       </div>
     </section>

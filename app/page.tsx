@@ -25,15 +25,16 @@ export default function Home() {
       <LocationSection />
       <TestimonialsSection />
       <GallerySection />
-      <FAQSection />
+      <ProcessSection />
       <PartnerSection />
       <CommitmentSection />
       <ServiceSection />
-      <ProcessSection />
-      <PackingGuideSection />
 
+      <PackingGuideSection />
       <ProhibitedItemsSection />
       <HeroSection />
+      <FAQSection />
+
       <CTASection />
       <Footer />
     </main>
