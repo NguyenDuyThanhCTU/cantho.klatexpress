@@ -20,20 +20,20 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col overflow-hidden">
       <Header />
-      <HeroSection />
-      <PartnerSection /> {/* Đặt ở đây để tăng uy tín ngay lập tức */}
+      <PricingSection />
+      <ShippingCalculator />
+      <LocationSection />
+      <TestimonialsSection />
+      <GallerySection />
+      <FAQSection />
+      <PartnerSection />
       <CommitmentSection />
       <ServiceSection />
       <ProcessSection />
       <PackingGuideSection />
-      <PricingSection />
-      <ShippingCalculator />
-      <SurchargeSection />
-      <LocationSection />
-      <TestimonialsSection />
+
       <ProhibitedItemsSection />
-      <GallerySection />
-      <FAQSection />
+      <HeroSection />
       <CTASection />
       <Footer />
     </main>

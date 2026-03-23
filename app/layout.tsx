@@ -153,7 +153,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         {children}
-        <FloatButton />
+        {/* <FloatButton /> */}
       </body>
     </html>
   );

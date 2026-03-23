@@ -30,12 +30,12 @@ export default function HeroSection() {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
-            Gửi trọn{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-500 to-yellow-400">
-              Niềm Tin
-            </span>{" "}
+            Dịch vụ gửi hàng quốc tế
             <br />
-            Kết nối <span className="text-brand-400">Năm Châu</span>
+            số một tại{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-500 to-yellow-400">
+              Miền Tây
+            </span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-300 max-w-lg leading-relaxed">

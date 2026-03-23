@@ -8,11 +8,12 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { name: "Trang chủ", href: "#hero" },
-  { name: "Dịch vụ", href: "#services" },
-  { name: "Quy trình", href: "#process" },
-  { name: "Bảng giá", href: "#calculator" }, // Có thể dẫn sang trang riêng sau này
-  { name: "Kho nhận hàng", href: "#locations" },
-  { name: "Liên hệ", href: "#footer" }, // Scroll xuống footer
+  // { name: "Dịch vụ", href: "#services" },
+  // { name: "Quy trình", href: "#process" },
+  { name: "Tra cứu vận đơn", href: "#hero" },
+  { name: "Bảng giá", href: "#calculator" },
+  // { name: "Kho nhận hàng", href: "#locations" },
+  { name: "Liên hệ", href: "#footer" },
 ];
 
 export default function Header() {
@@ -58,7 +59,7 @@ export default function Header() {
           " fixed  top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent",
           isScrolled
             ? "bg-white/80 backdrop-blur-md py-3 shadow-sm border-slate-200/50"
-            : "bg-transparent py-5",
+            : "bg-transparent py-5 bg-blue-700",
         )}
       >
         <div className="container  px-4 mx-auto md:px-6 flex items-center justify-between">
@@ -99,7 +100,7 @@ export default function Header() {
 
           {/* DESKTOP ACTIONS */}
           <div className="hidden md:flex items-center gap-4">
-            <Link href="#hero">
+            {/* <Link href="#hero">
               <button
                 className={cn(
                   "flex items-center gap-2 font-bold transition-colors",
@@ -109,7 +110,7 @@ export default function Header() {
                 <Search className="w-5 h-5" />
                 <span className="text-sm">Tra cứu</span>
               </button>
-            </Link>
+            </Link> */}
 
             <a
               href="tel:0777 697 056"
